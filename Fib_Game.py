@@ -57,7 +57,7 @@ class Player:
             self.counter += 5
             self.direction = 1
         if key[pygame.K_UP] and self.jumped == False:
-            self.vel_y = -10
+            self.vel_y = -5
             self.jumped = True
         if key[pygame.K_UP]:
             self.jumped = False
